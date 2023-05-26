@@ -1,11 +1,1 @@
-import express from 'express';
-import * as http from 'http';
-
-const app = express();
-const server = http.createServer(app);
-
-const instance = server.listen('8080', () => {
-  console.log('oauth2 mock login server is now running on http://localhost:8080');
-});
-
-instance.setTimeout(3 * 60 * 60 * 1000);
+[{"filePath":"/Users/gming001/Workspace/daming/nodejs/oauth2-mock-login-server/index.ts","messages":[],"suppressedMessages":[],"errorCount":0,"fatalErrorCount":0,"warningCount":0,"fixableErrorCount":0,"fixableWarningCount":0,"usedDeprecatedRules":[]}]
