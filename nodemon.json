@@ -1,0 +1,22 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/",
+        "dist/",
+        "coverage/"
+    ],
+    "watch": [
+        "*.ts"
+    ],
+    "execMap": {
+        "ts": "ts-node",
+        "js": "node"
+    },
+    "env": {
+        "NODE_ENV": "development",
+        "NODE_OPTIONS": "--insecure-http-parser",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+    },
+    "ext": "js,json,ts"
+}
